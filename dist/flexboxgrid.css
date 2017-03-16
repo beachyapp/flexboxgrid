@@ -1,5 +1,4 @@
-.container-fluid,
-.container {
+.container-fluid {
   margin-right: auto;
   margin-left: auto;
 }
@@ -9,7 +8,7 @@
   padding-left: 2rem;
 }
 
-.row {
+.flex-row {
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +26,7 @@
   margin-left: -0.5rem;
 }
 
-.row.reverse {
+.flex-row.reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;

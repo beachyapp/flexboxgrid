@@ -20,7 +20,7 @@
 @custom-media --md-viewport only screen and (min-width: 64em);
 @custom-media --lg-viewport only screen and (min-width: 75em);
 
-.container-fluid, .container {
+.container-fluid {
   margin-right: auto;
   margin-left: auto;
 }
@@ -30,7 +30,7 @@
   padding-left: var(--outer-margin, 2rem);
 }
 
-.row {
+.flex-row {
   box-sizing: border-box;
   display: flex;
   flex: 0 1 auto;
@@ -40,7 +40,7 @@
   margin-left: var(--gutter-compensation, -0.5rem);
 }
 
-.row.reverse {
+.flex-row.reverse {
   flex-direction: row-reverse;
 }
 
