@@ -2,7 +2,7 @@ Package.describe({
   name: 'kristoferjoseph:flexboxgrid',
   version: '0.6.3',
   summary: 'Grid based off of CSS3 flexbox specification',
-  git: 'https://github.com/kristoferjoseph/flexboxgrid',
+  git: 'https://github.com/beachyapp/flexboxgrid',
   documentation: 'README.md'
 });
 
